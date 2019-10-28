@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
-body{
+.container{
     width:1920px;
+    margin: 0 auto;
+}
+.header{
+    min-width: 1920px;
+    min-height: 725px;
+    background-image: url(img/header_background_optimized.jpg);
+    background-repeat: no-repeat;
 }
