@@ -59,3 +59,41 @@ a{
     letter-spacing: 32px;
     margin-top: 3px;
 }
+
+.header-topline-search {
+    float: right;
+    width: 208px;
+    height: 38px;
+    border:1px solid #ffffff;
+    color:#ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.36px;
+    letter-spacing: 0.36px;
+    background-color: transparent;
+    opacity: 1;
+    padding-left: 16px;
+    margin-right: 524px;
+    margin-top: 36px;
+}
+.phone {
+    width: 130px;
+    height: 12px;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.36px;
+    letter-spacing: 0.36;
+    float: left;
+    color: white;
+    margin-top:25px;
+    margin-left: 189px;
+}
+
+.email {
+   width: 128px;
+    height: 17px;
+    float: left;
+    color: white;
+}
