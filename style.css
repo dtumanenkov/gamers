@@ -198,7 +198,7 @@ a {
 }
 
 .header-bottom {
-    height: 564px;
+    height: 430px;
     margin: 0 auto;
 }
 
@@ -215,37 +215,95 @@ a {
     letter-spacing: 0.18px;
     margin: 134px auto 26px;
 }
+
 .header-bottom-spacer {
-    width:80px;
+    width: 80px;
     height: 2px;
     background-color: #ffffff;
     margin: 16px auto 76px;
-
 }
 
 .big-title {
     /* Style for "Morbi in n" */
-width: 590px;
-height: 48px;
-color: #ffffff;
-font-family: Poppins;
-font-size: 60px;
-font-weight: 500;
-line-height: 48px;
-/* Text style for "M, orbi in" */
-letter-spacing: 0.6px;
+    width: 590px;
+    height: 48px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 48px;
+    /* Text style for "M, orbi in" */
+    letter-spacing: 0.6px;
     margin: 0px auto;
 }
 
 .header-bottom-social-buttons {
-    width:220px;
+    width: 220px;
     margin: 75px auto;
 }
-.header-bottom-social-buttons a{
+
+.header-bottom-social-buttons a {
     padding-left: 12px;
-    width:40px;
+    width: 40px;
     height: 40px;
 }
-.header-bottom-social-buttons a:nth-child(1){
+
+.header-bottom-social-buttons a:nth-child(1) {
     padding-left: 0px;
+}
+
+.about-us {
+    height: 500px;
+    border-bottom: 1px solid #ffffff;
+}
+
+h1 {
+    /* Style for "About Us!" */
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.about-us-pict {
+    width: 540px;
+    height: 338px;
+    float: right;
+    margin-right: 474px;
+    margin-top: 81px;
+    background: url(img/about-us.jpg) no-repeat;
+}
+
+
+
+.about-us-info {
+    float: left;
+    /* Style for "Nemo enim" */
+    width: 398px;
+    height: 203px;
+    color: #999999;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "Nemo enim" */
+    letter-spacing: 0.12px;
+    margin-left: 475px;
+    margin-top: 81px;
+}
+.about-us h1 {
+    margin-bottom: 31px;
+}
+.services {
+    /* Style for "Прямоуголь" */
+width: 1920px;
+height: 762px;
+background-color: #f7f7f7;
+}
+.services h1{
+    display: block;
+    width:100px;
+    margin: 0px auto;
+    padding-top:50px;
 }
