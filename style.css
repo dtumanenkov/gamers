@@ -318,7 +318,7 @@ h1 {
 
 .services-right-1 {
     width: 749px;
-    float: right;
+    float: left;
     height: 550px;
 }
 
@@ -330,8 +330,6 @@ h1 {
     margin-bottom: 73px;
     clear: both;
     background: url(img/png/List_of_icons.png) -102px -234px no-repeat;
-    position: relative;
-    z-index: 1;
 }
 
 .ellips:hover {
@@ -357,7 +355,7 @@ h1 {
 .services-right-2 {
     width: 211px;
     height: 550px;
-    float: right;
+    float: left;
 }
 
 .services-text-block-text {
@@ -391,12 +389,130 @@ h3:hover {
     width: 26px;
     height: 26px;
     margin: 38px;
-    position: relative;
-    z-index: 2;
+
+
 }
 
 .branch {
+    background: url(img/png/List_of_icons.png) 2px -336px no-repeat;
+}
+
+.dollar {
+    background: url(img/png/List_of_icons.png) -20px -336px no-repeat;
+}
+
+.poll {
+    background: url(img/png/List_of_icons.png) -45px -336px no-repeat;
+}
+
+.services-text-block-right {
+    width: 282px;
+    height: 87px;
+    margin-bottom: 86px;
+    float: left;
+    clear: both;
+    text-align: left;
+
+}
+
+.ellips-right {
+    width: 102px;
+    height: 102px;
+    float: left;
+    margin-left: 45px;
+    margin-bottom: 73px;
+    clear: both;
+    background: url(img/png/List_of_icons.png) -102px -234px no-repeat;
+}
+
+.arrow {
+    background: url(img/png/List_of_icons.png) -139px -336px no-repeat;
+}
+
+.home {
+    background: url(img/png/List_of_icons.png) -74px -334px no-repeat;
+}
+
+.gear {
+    background: url(img/png/List_of_icons.png) -105px -334px no-repeat;
+}
+
+.gallery {
+    width: 1920px;
+    height: 889px;
+    background-color: #ffffff;
+}
+.gallery h1 {
+    display: block;
+    width: 210px;
+    margin: 0px auto;
+    padding-top: 93px;
+    padding-bottom: 92px;
+}
+.gallery-item {
     position: relative;
-    background-color: black;
-    z-index: 100;
+    width: 271px;
+    height: 481px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 29px;
+    border: 1px solid #e5e5e5;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.gallery-item:nth-child(2){
+    margin-left: 374px;
+
+}
+
+.gallery-picture {
+    width:271px;
+    height:376px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.assasin {
+    background: url(img/assasin.jpg) no-repeat;
+}
+
+.tomb {
+    background: url(img/tomb.jpg) no-repeat;
+}
+
+.ryse {
+    background: url(img/ryse.jpg) no-repeat;
+}
+
+.wow {
+    background: url(img/wow.jpg) no-repeat;
+}
+
+.gallery-text {
+    /* Style for "Assasin’s" */
+color: #000000;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 23.94px;
+text-transform: uppercase;
+/* Text style for "Assasin’s" */
+letter-spacing: 0.14px;
+/* Text style for ": Rogue" */
+letter-spacing: 0.14px;
+}
+
+.gallery-buy-button {
+    width:130px;
+    height:30px;
+    background-color: #f44336;
+    margin: 0px auto;
+    position: absolute;
+    bottom:13px;
+    left: 70px;
 }
