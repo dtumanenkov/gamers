@@ -275,8 +275,6 @@ h1 {
     background: url(img/about-us.jpg) no-repeat;
 }
 
-
-
 .about-us-info {
     float: left;
     /* Style for "Nemo enim" */
@@ -292,19 +290,113 @@ h1 {
     margin-left: 475px;
     margin-top: 81px;
 }
+
 .about-us h1 {
     margin-bottom: 31px;
 }
+
 .services {
     /* Style for "Прямоуголь" */
-width: 1920px;
-height: 762px;
-background-color: #f7f7f7;
+    width: 1920px;
+    height: 762px;
+    background-color: #f7f7f7;
 }
-.services h1{
+
+.services h1 {
     display: block;
-    width:150px;
+    width: 150px;
     margin: 0px auto;
-    padding-top:92px;
+    padding-top: 92px;
     padding-bottom: 87px;
+}
+
+.services-left-1 {
+    width: 749px;
+    float: left;
+    height: 550px;
+}
+
+.services-right-1 {
+    width: 749px;
+    float: right;
+    height: 550px;
+}
+
+.ellips {
+    width: 102px;
+    height: 102px;
+    float: right;
+    margin-right: 45px;
+    margin-bottom: 73px;
+    clear: both;
+    background: url(img/png/List_of_icons.png) -102px -234px no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.ellips:hover {
+    background: url(img/png/List_of_icons.png) 0px -234px no-repeat;
+    color: #f44336;
+}
+
+.services-text-block {
+    width: 282px;
+    height: 87px;
+    margin-bottom: 86px;
+    float: right;
+    clear: both;
+    text-align: right;
+}
+
+.services-left-2 {
+    width: 211px;
+    height: 550px;
+    float: left;
+}
+
+.services-right-2 {
+    width: 211px;
+    height: 550px;
+    float: right;
+}
+
+.services-text-block-text {
+    margin-top: 18px;
+    /* Style for "Itaque ear" */
+    color: #999999;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    /* Text style for "Itaque ear" */
+    letter-spacing: 0.12px;
+}
+
+h3 {
+    /* Style for "Repreh Qui" */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    /* Text style for "Repreh Qui" */
+    letter-spacing: 0.16px;
+}
+
+h3:hover {
+    color: #f44336;
+}
+
+.services-ref {
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 38px;
+    position: relative;
+    z-index: 2;
+}
+
+.branch {
+    position: relative;
+    background-color: black;
+    z-index: 100;
 }
