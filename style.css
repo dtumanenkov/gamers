@@ -125,6 +125,20 @@ a {
     background-color: transparent;
     margin-top: 20px;
     position: relative;
+
+}
+.search{
+    position: relative;
+
+}
+.search:before{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    right: 473px;
+    top: 30px;
+    background: url(img/png/List_of_icons.png) 0px 0px no-repeat;
 }
 
 .phone:before {
@@ -147,15 +161,7 @@ a {
     background: url(img/png/List_of_icons.png) 0px -20px no-repeat;
 }
 
-.search:after {
-    content: "";
-    position: absolute;
-    width: 18px;
-    height: 19px;
-    right: -80px;
-    top: 42px;
-    background: url(img/png/List_of_icons.png) 0px 0px no-repeat;
-}
+
 
 .header-middle {
     height: 78px;
@@ -336,6 +342,10 @@ h1 {
     background: url(img/png/List_of_icons.png) 0px -234px no-repeat;
     color: #f44336;
 }
+.ellips-right:hover{
+    background: url(img/png/List_of_icons.png) 0px -234px no-repeat;
+    color: #f44336;
+}
 
 .services-text-block {
     width: 282px;
@@ -442,6 +452,7 @@ h3:hover {
     height: 889px;
     background-color: #ffffff;
 }
+
 .gallery h1 {
     display: block;
     width: 210px;
@@ -449,6 +460,7 @@ h3:hover {
     padding-top: 93px;
     padding-bottom: 92px;
 }
+
 .gallery-item {
     position: relative;
     width: 271px;
@@ -456,7 +468,7 @@ h3:hover {
     display: inline-block;
     margin-left: 0px;
     margin-right: 29px;
-    border: 1px solid #e5e5e5;
+
     vertical-align: top;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -464,15 +476,17 @@ h3:hover {
     padding-left: 0px;
     padding-right: 0px;
     position: relative;
+    background-color: #f7f7f7;
 }
-.gallery-item:nth-child(2){
+
+.gallery-item:nth-child(2) {
     margin-left: 374px;
 
 }
 
 .gallery-picture {
-    width:271px;
-    height:376px;
+    width: 271px;
+    height: 376px;
     margin-bottom: 20px;
     float: left;
 }
@@ -495,24 +509,134 @@ h3:hover {
 
 .gallery-text {
     /* Style for "Assasin’s" */
-color: #000000;
-font-family: Poppins;
-font-size: 14px;
-font-weight: 500;
-line-height: 23.94px;
-text-transform: uppercase;
-/* Text style for "Assasin’s" */
-letter-spacing: 0.14px;
-/* Text style for ": Rogue" */
-letter-spacing: 0.14px;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.94px;
+    text-transform: uppercase;
+    /* Text style for "Assasin’s" */
+    letter-spacing: 0.14px;
+    /* Text style for ": Rogue" */
+}
+
+.long-text {
+    line-height: 20px;
 }
 
 .gallery-buy-button {
-    width:130px;
-    height:30px;
+    width: 130px;
+    height: 30px;
     background-color: #f44336;
     margin: 0px auto;
     position: absolute;
-    bottom:13px;
+    bottom: 13px;
     left: 70px;
 }
+
+.gallery-buy-button a {
+    display: block;
+    margin-top: 3px;
+    /* Style for "Buy" */
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    /* Text style for "B, uy" */
+    letter-spacing: 0.14px;
+}
+
+.game-version {
+    text-transform: lowercase;
+
+}
+
+.feedback {
+    /* Style for "feedback" */
+    width: 1920px;
+    height: 537px;
+    background-color: rgba(102, 102, 102, 0.81);
+    background-image: url(img/feedback-bg.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.feedback h1 {
+    display: block;
+    width: 280px;
+    margin: 0px auto;
+    padding-top: 93px;
+    padding-bottom: 92px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.quotes {
+    width:45px;
+    height: 38px;
+    background: url(img/png/quotes.png) no-repeat;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.feedback-text {
+    /* Style for "feedback text" */
+margin:0 auto;
+width: 935px;
+height: 136px;
+color: #ffffff;
+font-family: "Roboto Condensed";
+font-size: 14px;
+font-weight: 300;
+/* Text style for "D, onec fe" */
+font-family: "Roboto Condensed";
+font-weight: 300;
+line-height: 24px;
+text-align: center
+}
+
+.author {
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 400;
+}
+.left-arrow{
+    content: "";
+    position: absolute;
+    width:37px;
+    height:37px;
+    left: 377px;
+    top:300px;
+    background: url(img/png/left-arrow.png) no-repeat;
+}
+.left-arrow a{
+    display: block;
+    width: 37px;
+    height: 37px;
+}
+.right-arrow{
+    content: "";
+    position: absolute;
+    width:37px;
+    height:37px;
+    right: 377px;
+    top:300px;
+    background: url(img/png/right-arrow.png) no-repeat;
+}
+.right-arrow a{
+    display: block;
+    width: 37px;
+    height: 37px;
+}
+
+.job-title {
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
