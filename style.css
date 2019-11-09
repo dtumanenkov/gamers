@@ -125,13 +125,13 @@ a {
     background-color: transparent;
     margin-top: 20px;
     position: relative;
-
 }
-.search{
+
+.search {
     position: relative;
-
 }
-.search:before{
+
+.search:before {
     content: "";
     position: absolute;
     width: 18px;
@@ -160,8 +160,6 @@ a {
     top: 1px;
     background: url(img/png/List_of_icons.png) 0px -20px no-repeat;
 }
-
-
 
 .header-middle {
     height: 78px;
@@ -342,7 +340,8 @@ h1 {
     background: url(img/png/List_of_icons.png) 0px -234px no-repeat;
     color: #f44336;
 }
-.ellips-right:hover{
+
+.ellips-right:hover {
     background: url(img/png/List_of_icons.png) 0px -234px no-repeat;
     color: #f44336;
 }
@@ -399,8 +398,6 @@ h3:hover {
     width: 26px;
     height: 26px;
     margin: 38px;
-
-
 }
 
 .branch {
@@ -422,7 +419,6 @@ h3:hover {
     float: left;
     clear: both;
     text-align: left;
-
 }
 
 .ellips-right {
@@ -468,7 +464,6 @@ h3:hover {
     display: inline-block;
     margin-left: 0px;
     margin-right: 29px;
-
     vertical-align: top;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -481,7 +476,6 @@ h3:hover {
 
 .gallery-item:nth-child(2) {
     margin-left: 374px;
-
 }
 
 .gallery-picture {
@@ -549,7 +543,6 @@ h3:hover {
 
 .game-version {
     text-transform: lowercase;
-
 }
 
 .feedback {
@@ -576,7 +569,7 @@ h3:hover {
 }
 
 .quotes {
-    width:45px;
+    width: 45px;
     height: 38px;
     background: url(img/png/quotes.png) no-repeat;
     margin: 0 auto;
@@ -585,18 +578,18 @@ h3:hover {
 
 .feedback-text {
     /* Style for "feedback text" */
-margin:0 auto;
-width: 935px;
-height: 136px;
-color: #ffffff;
-font-family: "Roboto Condensed";
-font-size: 14px;
-font-weight: 300;
-/* Text style for "D, onec fe" */
-font-family: "Roboto Condensed";
-font-weight: 300;
-line-height: 24px;
-text-align: center
+    margin: 0 auto;
+    width: 935px;
+    height: 136px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    /* Text style for "D, onec fe" */
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center
 }
 
 .author {
@@ -604,30 +597,34 @@ text-align: center
     font-size: 16px;
     font-weight: 400;
 }
-.left-arrow{
+
+.left-arrow {
     content: "";
     position: absolute;
-    width:37px;
-    height:37px;
+    width: 37px;
+    height: 37px;
     left: 377px;
-    top:300px;
+    top: 300px;
     background: url(img/png/left-arrow.png) no-repeat;
 }
-.left-arrow a{
+
+.left-arrow a {
     display: block;
     width: 37px;
     height: 37px;
 }
-.right-arrow{
+
+.right-arrow {
     content: "";
     position: absolute;
-    width:37px;
-    height:37px;
+    width: 37px;
+    height: 37px;
     right: 377px;
-    top:300px;
+    top: 300px;
     background: url(img/png/right-arrow.png) no-repeat;
 }
-.right-arrow a{
+
+.right-arrow a {
     display: block;
     width: 37px;
     height: 37px;
@@ -639,4 +636,376 @@ text-align: center
     font-weight: 300;
 }
 
+.news-events {
+    min-width: 400px;
+    min-height: 888px;
+    background-color: #ffffff;
+}
 
+.news-events h1 {
+    display: block;
+    width: 280px;
+    margin: 0px auto;
+    padding-top: 93px;
+    padding-bottom: 92px;
+    /* Style for "News & Eve" */
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.news-events-left {
+    width: 50%;
+    min-height: 300px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.news-events-left h2 {
+    /* Style for "Latest New" */
+    width: 150px;
+    margin-left: 389px;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    clear: both;
+}
+
+.news-block {
+    width: 473px;
+    min-height: 100px;
+    margin-left: 410px;
+    margin-top: 49px;
+    float: left;
+    background-color: #ffffff;
+}
+
+.news-block:nth-child(2) {
+    margin-top: 32px;
+}
+
+.date {
+    width: 98px;
+    height: 139px;
+    border: 1px solid #e8e8e8;
+    border-radius: 49px;
+    background-color: #f7f7f7;
+    float: left;
+}
+
+.day {
+    width: 38px;
+    height: 24px;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 20px auto 12px auto;
+    text-align: center;
+}
+
+.month {
+    /* Style for "June" */
+    width: 34px;
+    height: 12px;
+    color: #9e9e9e;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+
+.year {
+    /* Style for "2016" */
+    width: 35px;
+    height: 14px;
+    color: #9e9e9e;
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.news {
+    width: 308px;
+    min-width: 308px;
+    min-height: 139px;
+    margin-left: 65px;
+    float: left;
+}
+
+.news h3 {
+    /* Style for "Fugiat Quo" */
+    min-width: 140px;
+    color: #f44336;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+    margin-top: 12px;
+}
+
+.news-text {
+    /* Style for "Quis autem" */
+    width: 308px;
+    min-height: 35px;
+    color: #9e9e9e;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.news-events-right {
+    width: 50%;
+    background-color: #ffffff;
+    min-height: 300px;
+    float: left;
+    position: relative;
+}
+
+.news-events-right h2 {
+    /* Style for "Latest New" */
+    width: 570px;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    clear: both;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.featured-events-block-left-arrow {
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    right: 420px;
+    top: 10px;
+    background: url(img/png/List_of_icons.png) 0px -368px no-repeat;
+}
+
+.featured-events-block-right-arrow {
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    right: 405px;
+    top: 10px;
+    background: url(img/png/List_of_icons.png) -20px -368px no-repeat;
+}
+
+.featured-events-block-left-arrow a {
+    display: block;
+    width: 18px;
+    height: 16px;
+}
+
+.featured-events-block-right-arrow a {
+    display: block;
+    width: 18px;
+    height: 16px;
+}
+
+.carousel {
+    width: 580px;
+    height: 120px;
+    float: left;
+    margin-top: 32px;
+    margin-bottom: 45px;
+}
+
+.carousel a {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.featured-event-opened {
+    /* Style for "−   Assume" */
+    width: 570px;
+    float: left;
+    color: #000000;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background-color: #f7f7f7;
+}
+
+.featured-event-opened a {
+    float: left;
+    clear: both;
+    background: #ffffff;
+    width: 100%;
+}
+
+.featured-event-closed {
+    float: left;
+    width: 570px;
+    height: 40px;
+    color: #000000;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.featured-event-opened-text {
+    /* Style for "Lorem Ipsu" */
+    color: #505050;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    float: left;
+    margin: 39px 20px 43px 13px;
+}
+
+.our-team {
+    width: 1920px;
+    height: 785px;
+    background-color: #f7f7f7;
+}
+
+.our-team h1 {
+    display: block;
+    width: 175px;
+    margin: 0px auto;
+    padding-top: 98px;
+    padding-bottom: 61px;
+    /* Style for "News & Eve" */
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.gallery-item-employee {
+    position: relative;
+    width: 270px;
+    height: 520px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 29px;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+.gallery-item-employee:nth-child(2) {
+    margin-left: 374px;
+}
+
+.gallery-picture-employee {
+    width: 270px;
+    height: 405px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.gallery-employee-name {
+    /* Style for "Mary Jane" */
+    width: 100%;
+    height: 24px;
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    float: left;
+    text-align: left;
+}
+
+.gallery-employee-position {
+    /* Style for "Vestibulum" */
+    width: 100%;
+    height: 12px;
+    color: #838383;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 17px;
+}
+
+.employee-social-button {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 17px;
+}
+
+.employee-social-button a {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.employee-social-button .facebook {
+    background: url(img/png/List_of_icons.png) -96px 0px no-repeat;
+}
+
+.employee-social-button .twitter {
+    background: url(img/png/List_of_icons.png) -96px -33px no-repeat;
+}
+
+.employee-social-button .rss {
+    background: url(img/png/List_of_icons.png) -96px -66px no-repeat;
+}
+
+.employee-social-button .vk {
+    background: url(img/png/List_of_icons.png) -96px -99px no-repeat;
+}
+
+.employee-social-button .facebook:hover {
+    background: url(img/png/List_of_icons.png) -162px 0px no-repeat;
+}
+
+.employee-social-button .twitter:hover {
+    background: url(img/png/List_of_icons.png) -162px -33px no-repeat;
+}
+
+.employee-social-button .rss:hover {
+    background: url(img/png/List_of_icons.png) -162px -66px no-repeat;
+}
+
+.employee-social-button .vk:hover {
+    background: url(img/png/List_of_icons.png) -162px -99px no-repeat;
+}
+
+.subscribe {
+    width: 1920px;
+    height: 313px;
+    background: url(img/subscribe.jpg) no-repeat;
+}
+
+.subscribe h1 {
+    display: block;
+    width: 430px;
+    margin: 0px auto;
+    padding-top: 98px;
+    padding-bottom: 61px;
+    /* Style for "Subscribe" */
+    height: 39px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+}
