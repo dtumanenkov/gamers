@@ -48,7 +48,7 @@ a {
 
 .logo span:nth-child(1) {
     display: block;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 36px;
     font-weight: 500;
     line-height: 22.36px;
@@ -59,7 +59,7 @@ a {
     display: block;
     width: 171px;
     height: 12px;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 15px;
     font-weight: 500;
     line-height: 22.36px;
@@ -232,7 +232,7 @@ a {
     width: 590px;
     height: 48px;
     color: #ffffff;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 60px;
     font-weight: 500;
     line-height: 48px;
@@ -264,7 +264,7 @@ a {
 h1 {
     /* Style for "About Us!" */
     color: #f44336;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 36px;
     font-weight: 500;
     line-height: 36px;
@@ -381,7 +381,7 @@ h1 {
 
 h3 {
     /* Style for "Repreh Qui" */
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -504,7 +504,7 @@ h3:hover {
 .gallery-text {
     /* Style for "Assasin’s" */
     color: #000000;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 14px;
     font-weight: 500;
     line-height: 23.94px;
@@ -533,7 +533,7 @@ h3:hover {
     margin-top: 3px;
     /* Style for "Buy" */
     color: #ffffff;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
@@ -562,7 +562,7 @@ h3:hover {
     padding-top: 93px;
     padding-bottom: 92px;
     color: #ffffff;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 48px;
     font-weight: 500;
     line-height: 48px;
@@ -650,7 +650,7 @@ h3:hover {
     padding-bottom: 92px;
     /* Style for "News & Eve" */
     color: #f44336;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 36px;
     font-weight: 500;
     line-height: 48px;
@@ -668,7 +668,7 @@ h3:hover {
     width: 150px;
     margin-left: 389px;
     color: #000000;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 24px;
     font-weight: 500;
     clear: both;
@@ -700,7 +700,7 @@ h3:hover {
     width: 38px;
     height: 24px;
     color: #000000;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 28px;
     font-weight: 500;
     margin: 20px auto 12px auto;
@@ -773,7 +773,7 @@ h3:hover {
     /* Style for "Latest New" */
     width: 570px;
     color: #000000;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 24px;
     font-weight: 500;
     clear: both;
@@ -884,7 +884,7 @@ h3:hover {
     padding-bottom: 61px;
     /* Style for "News & Eve" */
     color: #f44336;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 36px;
     font-weight: 500;
     line-height: 48px;
@@ -923,7 +923,7 @@ h3:hover {
     width: 100%;
     height: 24px;
     color: #f44336;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 24px;
     font-weight: 500;
     float: left;
@@ -993,19 +993,184 @@ h3:hover {
     width: 1920px;
     height: 313px;
     background: url(img/subscribe.jpg) no-repeat;
+    margin: 0 auto;
 }
 
 .subscribe h1 {
     display: block;
     width: 430px;
     margin: 0px auto;
-    padding-top: 98px;
-    padding-bottom: 61px;
+    padding-top: 86px;
+    padding-bottom: 53px;
     /* Style for "Subscribe" */
     height: 39px;
     color: #ffffff;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 48px;
     font-weight: 500;
     line-height: 48px;
+}
+
+.s-email {
+    width: 630px;
+    height: 55px;
+    margin: 0 auto;
+}
+
+.subscribe-email {
+    /* Style for "Прямоуголь" */
+    width: 467px;
+    height: 55px;
+    background-color: #ffffff;
+    /* Style for "Email" */
+    color: #8e8e8e;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    margin-right: 12px;
+    padding-left: 16px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 0px;
+    float: left;
+}
+
+.subscribe-email-button {
+    /* Style for "Прямоуголь" */
+    width: 119px;
+    height: 53px;
+    background-color: #f44336;
+    /* Style for "Subscribe" */
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    border: 0px;
+}
+
+.contact-us {
+    width: 1920px;
+    height: 1111px;
+}
+
+.contact-us h1 {
+    display: block;
+    width: 200px;
+    margin: 0px auto;
+    padding-top: 97px;
+    padding-bottom: 89px;
+    /* Style for "contact us" */
+    height: 27px;
+    color: #f44336;
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 500;
+
+}
+
+.contact-us-left {
+    width: 50%;
+    height: 354px;
+    float: left;
+}
+
+.contact-us-left h3 {
+    /* Style for "Get in tou" */
+    width: 210px;
+    height: 20px;
+    color: #f44336;
+    font-family: "Roboto Condensed";
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 23px;
+    margin-bottom: 18px;
+}
+
+.contact-us-right {
+    width: 50%;
+    height: 354px;
+    float: left;
+}
+
+.contact-us-block {
+    width: 972px;
+    height: 354px;
+    margin: 0 auto;
+}
+
+.contact-us-text {
+    color: #9e9e9e;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.red-color {
+    color: #f44336;
+}
+
+.name-field {
+    width: 470px;
+    height: 42px;
+    margin-left: 58px;
+    padding-left: 16px;
+    margin-bottom: 21px;
+    color: #838383;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.email-field {
+    width: 470px;
+    height: 42px;
+    margin-left: 58px;
+    padding-left: 16px;
+    margin-bottom: 21px;
+    color: #838383;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.textarea-field {
+    width: 470px;
+    height: 168px;
+    margin-left: 58px;
+    padding-left: 13px;
+    padding-top: 13px;
+    margin-bottom: 21px;
+    color: #838383;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form-group {}
+
+.contact-us-button {
+    /* Style for "Rectangle" */
+    width: 140px;
+    height: 40px;
+    background-color: #f44336;
+    margin-left: 58px;
+    /* Style for "SUBMIT" */
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.map {
+    width: 1169px;
+    height: 298px;
+    margin: 0 auto;
+    background: url(img/Map.jpg) no-repeat;
+}
+
+h1.map-h1 {
+    font-weight: 500;
+    padding-bottom: 25px;
 }
