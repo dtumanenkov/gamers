@@ -85,6 +85,7 @@ a {
     margin-left: 100px;
     margin-top: 20px;
     position: relative;
+    border-right: 0px;
 }
 
 .phone {
@@ -247,13 +248,41 @@ a {
 }
 
 .header-bottom-social-buttons a {
-    padding-left: 12px;
+    display: inline-block;
+    margin-left: 12px;
     width: 40px;
     height: 40px;
 }
+.btn-social-fb {
+    background: url(img/png/List_of_icons.png) 0px -70px;
+}
+.btn-social-fb:hover{
 
+    background: url(img/png/List_of_icons.png) -44px -70px;
+}
+.btn-social-twitter {
+    background: url(img/png/List_of_icons.png) 0px -110px;
+}
+.btn-social-twitter:hover{
+
+    background: url(img/png/List_of_icons.png) -44px -110px;
+}
+.btn-social-rss {
+    background: url(img/png/List_of_icons.png) 0px -150px;
+}
+.btn-social-rss:hover{
+
+    background: url(img/png/List_of_icons.png) -44px -150px;
+}
+.btn-social-vk {
+    background: url(img/png/List_of_icons.png) 0px -190px;
+}
+.btn-social-vk:hover{
+
+    background: url(img/png/List_of_icons.png) -44px -190px;
+}
 .header-bottom-social-buttons a:nth-child(1) {
-    padding-left: 0px;
+    margin-left: 0px;
 }
 
 .about-us {
@@ -527,7 +556,9 @@ h3:hover {
     bottom: 13px;
     left: 70px;
 }
-
+.gallery-buy-button:hover{
+    background-color: forestgreen;
+}
 .gallery-buy-button a {
     display: block;
     margin-top: 3px;
@@ -858,7 +889,9 @@ h3:hover {
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
-
+.featured-event-closed:hover{
+    border-color: #999999;
+}
 .featured-event-opened-text {
     /* Style for "Lorem Ipsu" */
     color: #505050;
@@ -1048,7 +1081,9 @@ h3:hover {
     font-weight: 300;
     border: 0px;
 }
-
+.subscribe-email-button:hover{
+    background-color: forestgreen;
+}
 .contact-us {
     width: 1920px;
     height: 1111px;
@@ -1163,6 +1198,9 @@ h3:hover {
     font-weight: 400;
     text-transform: uppercase;
 }
+.contact-us-button:hover{
+    background-color: forestgreen;
+}
 .map {
     width: 1169px;
     height: 298px;
@@ -1173,4 +1211,28 @@ h3:hover {
 h1.map-h1 {
     font-weight: 500;
     padding-bottom: 25px;
+}
+
+.footer {
+    width: 1920px;
+    height: 71px;
+    background-color: #000000;
+}
+
+.copyright {
+    margin: 29px auto;
+    /* Style for "© 2017 Ист" */
+width: 310px;
+height: 14px;
+color: #ffffff;
+font-family: "Arial Narrow";
+font-size: 16px;
+font-weight: 400;
+}
+
+
+
+.search-button:hover {
+     background: url(img/png/List_of_icons.png) -34px 9px no-repeat;
+     border-color: aqua;
 }
