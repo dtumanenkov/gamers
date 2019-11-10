@@ -253,34 +253,39 @@ a {
     width: 40px;
     height: 40px;
 }
+
 .btn-social-fb {
     background: url(img/png/List_of_icons.png) 0px -70px;
 }
-.btn-social-fb:hover{
 
+.btn-social-fb:hover {
     background: url(img/png/List_of_icons.png) -44px -70px;
 }
+
 .btn-social-twitter {
     background: url(img/png/List_of_icons.png) 0px -110px;
 }
-.btn-social-twitter:hover{
 
+.btn-social-twitter:hover {
     background: url(img/png/List_of_icons.png) -44px -110px;
 }
+
 .btn-social-rss {
     background: url(img/png/List_of_icons.png) 0px -150px;
 }
-.btn-social-rss:hover{
 
+.btn-social-rss:hover {
     background: url(img/png/List_of_icons.png) -44px -150px;
 }
+
 .btn-social-vk {
     background: url(img/png/List_of_icons.png) 0px -190px;
 }
-.btn-social-vk:hover{
 
+.btn-social-vk:hover {
     background: url(img/png/List_of_icons.png) -44px -190px;
 }
+
 .header-bottom-social-buttons a:nth-child(1) {
     margin-left: 0px;
 }
@@ -556,9 +561,11 @@ h3:hover {
     bottom: 13px;
     left: 70px;
 }
-.gallery-buy-button:hover{
+
+.gallery-buy-button:hover {
     background-color: forestgreen;
 }
+
 .gallery-buy-button a {
     display: block;
     margin-top: 3px;
@@ -639,6 +646,10 @@ h3:hover {
     background: url(img/png/left-arrow.png) no-repeat;
 }
 
+.left-arrow:hover {
+    outline: 2px solid aqua;
+}
+
 .left-arrow a {
     display: block;
     width: 37px;
@@ -653,6 +664,9 @@ h3:hover {
     right: 377px;
     top: 300px;
     background: url(img/png/right-arrow.png) no-repeat;
+}
+.right-arrow:hover {
+    outline: 2px solid aqua;
 }
 
 .right-arrow a {
@@ -821,6 +835,10 @@ h3:hover {
     background: url(img/png/List_of_icons.png) 0px -368px no-repeat;
 }
 
+.featured-events-block-left-arrow:hover {
+    background: url(img/png/List_of_icons.png) -42px -368px no-repeat;
+}
+
 .featured-events-block-right-arrow {
     width: 18px;
     height: 16px;
@@ -828,6 +846,10 @@ h3:hover {
     right: 405px;
     top: 10px;
     background: url(img/png/List_of_icons.png) -20px -368px no-repeat;
+}
+
+.featured-events-block-right-arrow:hover {
+    background: url(img/png/List_of_icons.png) -62px -368px no-repeat;
 }
 
 .featured-events-block-left-arrow a {
@@ -889,9 +911,11 @@ h3:hover {
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
-.featured-event-closed:hover{
+
+.featured-event-closed:hover {
     border-color: #999999;
 }
+
 .featured-event-opened-text {
     /* Style for "Lorem Ipsu" */
     color: #505050;
@@ -1081,9 +1105,11 @@ h3:hover {
     font-weight: 300;
     border: 0px;
 }
-.subscribe-email-button:hover{
+
+.subscribe-email-button:hover {
     background-color: forestgreen;
 }
+
 .contact-us {
     width: 1920px;
     height: 1111px;
@@ -1101,7 +1127,6 @@ h3:hover {
     font-family: "Poppins";
     font-size: 36px;
     font-weight: 500;
-
 }
 
 .contact-us-left {
@@ -1198,9 +1223,11 @@ h3:hover {
     font-weight: 400;
     text-transform: uppercase;
 }
-.contact-us-button:hover{
+
+.contact-us-button:hover {
     background-color: forestgreen;
 }
+
 .map {
     width: 1169px;
     height: 298px;
@@ -1217,22 +1244,43 @@ h1.map-h1 {
     width: 1920px;
     height: 71px;
     background-color: #000000;
+    float: left;
 }
 
 .copyright {
+    display: block;
     margin: 29px auto;
     /* Style for "© 2017 Ист" */
-width: 310px;
-height: 14px;
-color: #ffffff;
-font-family: "Arial Narrow";
-font-size: 16px;
-font-weight: 400;
+    width: 310px;
+    height: 14px;
+    color: #ffffff;
+    font-family: "Arial Narrow";
+    font-size: 16px;
+    font-weight: 400;
 }
 
-
-
 .search-button:hover {
-     background: url(img/png/List_of_icons.png) -34px 9px no-repeat;
-     border-color: aqua;
+    background: url(img/png/List_of_icons.png) -34px 9px no-repeat;
+    border-color: aqua;
+}
+
+.Button-to-top {
+    /* Style for "arrow copy" */
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 55px;
+    margin-top: -90px;
+}
+
+.Button-to-top a {
+    /* Style for "arrow copy" */
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(img/png/List_of_icons.png) -216px 0px no-repeat;
+}
+
+.Button-to-top a:hover {
+    background: url(img/png/List_of_icons.png) -264px 0px no-repeat;
 }
