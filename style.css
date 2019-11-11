@@ -48,7 +48,7 @@ a {
 
 .logo span:nth-child(1) {
     display: block;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 36px;
     font-weight: 500;
     line-height: 22.36px;
@@ -59,7 +59,7 @@ a {
     display: block;
     width: 171px;
     height: 12px;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 15px;
     font-weight: 500;
     line-height: 22.36px;
@@ -85,6 +85,7 @@ a {
     margin-left: 100px;
     margin-top: 20px;
     position: relative;
+    border-right: 0px;
 }
 
 .phone {
@@ -125,13 +126,14 @@ a {
     background-color: transparent;
     margin-top: 20px;
     position: relative;
-
+    color: transparent;
 }
-.search{
+
+.search {
     position: relative;
-
 }
-.search:before{
+
+.search:before {
     content: "";
     position: absolute;
     width: 18px;
@@ -160,8 +162,6 @@ a {
     top: 1px;
     background: url(img/png/List_of_icons.png) 0px -20px no-repeat;
 }
-
-
 
 .header-middle {
     height: 78px;
@@ -193,6 +193,7 @@ a {
 .header-middle-menu a:nth-child(1) {
     padding-left: 0px;
 }
+
 
 .header-middle-menu a:hover:before {
     content: "";
@@ -234,7 +235,7 @@ a {
     width: 590px;
     height: 48px;
     color: #ffffff;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 60px;
     font-weight: 500;
     line-height: 48px;
@@ -249,13 +250,46 @@ a {
 }
 
 .header-bottom-social-buttons a {
-    padding-left: 12px;
+    display: inline-block;
+    margin-left: 12px;
     width: 40px;
     height: 40px;
 }
 
+.btn-social-fb {
+    background: url(img/png/List_of_icons.png) 0px -70px;
+}
+
+.btn-social-fb:hover {
+    background: url(img/png/List_of_icons.png) -44px -70px;
+}
+
+.btn-social-twitter {
+    background: url(img/png/List_of_icons.png) 0px -110px;
+}
+
+.btn-social-twitter:hover {
+    background: url(img/png/List_of_icons.png) -44px -110px;
+}
+
+.btn-social-rss {
+    background: url(img/png/List_of_icons.png) 0px -150px;
+}
+
+.btn-social-rss:hover {
+    background: url(img/png/List_of_icons.png) -44px -150px;
+}
+
+.btn-social-vk {
+    background: url(img/png/List_of_icons.png) 0px -190px;
+}
+
+.btn-social-vk:hover {
+    background: url(img/png/List_of_icons.png) -44px -190px;
+}
+
 .header-bottom-social-buttons a:nth-child(1) {
-    padding-left: 0px;
+    margin-left: 0px;
 }
 
 .about-us {
@@ -266,7 +300,7 @@ a {
 h1 {
     /* Style for "About Us!" */
     color: #f44336;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 36px;
     font-weight: 500;
     line-height: 36px;
@@ -342,7 +376,8 @@ h1 {
     background: url(img/png/List_of_icons.png) 0px -234px no-repeat;
     color: #f44336;
 }
-.ellips-right:hover{
+
+.ellips-right:hover {
     background: url(img/png/List_of_icons.png) 0px -234px no-repeat;
     color: #f44336;
 }
@@ -382,7 +417,7 @@ h1 {
 
 h3 {
     /* Style for "Repreh Qui" */
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -399,8 +434,6 @@ h3:hover {
     width: 26px;
     height: 26px;
     margin: 38px;
-
-
 }
 
 .branch {
@@ -422,7 +455,6 @@ h3:hover {
     float: left;
     clear: both;
     text-align: left;
-
 }
 
 .ellips-right {
@@ -468,7 +500,6 @@ h3:hover {
     display: inline-block;
     margin-left: 0px;
     margin-right: 29px;
-
     vertical-align: top;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -481,7 +512,6 @@ h3:hover {
 
 .gallery-item:nth-child(2) {
     margin-left: 374px;
-
 }
 
 .gallery-picture {
@@ -510,7 +540,7 @@ h3:hover {
 .gallery-text {
     /* Style for "Assasin’s" */
     color: #000000;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 14px;
     font-weight: 500;
     line-height: 23.94px;
@@ -534,12 +564,16 @@ h3:hover {
     left: 70px;
 }
 
+.gallery-buy-button:hover {
+    background-color: forestgreen;
+}
+
 .gallery-buy-button a {
     display: block;
     margin-top: 3px;
     /* Style for "Buy" */
     color: #ffffff;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
@@ -549,7 +583,6 @@ h3:hover {
 
 .game-version {
     text-transform: lowercase;
-
 }
 
 .feedback {
@@ -569,14 +602,14 @@ h3:hover {
     padding-top: 93px;
     padding-bottom: 92px;
     color: #ffffff;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 48px;
     font-weight: 500;
     line-height: 48px;
 }
 
 .quotes {
-    width:45px;
+    width: 45px;
     height: 38px;
     background: url(img/png/quotes.png) no-repeat;
     margin: 0 auto;
@@ -585,18 +618,18 @@ h3:hover {
 
 .feedback-text {
     /* Style for "feedback text" */
-margin:0 auto;
-width: 935px;
-height: 136px;
-color: #ffffff;
-font-family: "Roboto Condensed";
-font-size: 14px;
-font-weight: 300;
-/* Text style for "D, onec fe" */
-font-family: "Roboto Condensed";
-font-weight: 300;
-line-height: 24px;
-text-align: center
+    margin: 0 auto;
+    width: 935px;
+    height: 136px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    /* Text style for "D, onec fe" */
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center
 }
 
 .author {
@@ -604,30 +637,41 @@ text-align: center
     font-size: 16px;
     font-weight: 400;
 }
-.left-arrow{
+
+.left-arrow {
     content: "";
     position: absolute;
-    width:37px;
-    height:37px;
+    width: 37px;
+    height: 37px;
     left: 377px;
-    top:300px;
+    top: 300px;
     background: url(img/png/left-arrow.png) no-repeat;
 }
-.left-arrow a{
+
+.left-arrow:hover {
+    outline: 2px solid aqua;
+}
+
+.left-arrow a {
     display: block;
     width: 37px;
     height: 37px;
 }
-.right-arrow{
+
+.right-arrow {
     content: "";
     position: absolute;
-    width:37px;
-    height:37px;
+    width: 37px;
+    height: 37px;
     right: 377px;
-    top:300px;
+    top: 300px;
     background: url(img/png/right-arrow.png) no-repeat;
 }
-.right-arrow a{
+.right-arrow:hover {
+    outline: 2px solid aqua;
+}
+
+.right-arrow a {
     display: block;
     width: 37px;
     height: 37px;
@@ -639,4 +683,610 @@ text-align: center
     font-weight: 300;
 }
 
+.news-events {
+    min-width: 400px;
+    min-height: 888px;
+    background-color: #ffffff;
+}
 
+.news-events h1 {
+    display: block;
+    width: 280px;
+    margin: 0px auto;
+    padding-top: 93px;
+    padding-bottom: 92px;
+    /* Style for "News & Eve" */
+    color: #f44336;
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.news-events-left {
+    width: 50%;
+    min-height: 300px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.news-events-left h2 {
+    /* Style for "Latest New" */
+    width: 150px;
+    margin-left: 389px;
+    color: #000000;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
+    clear: both;
+}
+
+.news-block {
+    width: 473px;
+    min-height: 100px;
+    margin-left: 410px;
+    margin-top: 49px;
+    float: left;
+    background-color: #ffffff;
+}
+
+.news-block:nth-child(2) {
+    margin-top: 32px;
+}
+
+.date {
+    width: 98px;
+    height: 139px;
+    border: 1px solid #e8e8e8;
+    border-radius: 49px;
+    background-color: #f7f7f7;
+    float: left;
+}
+
+.day {
+    width: 38px;
+    height: 24px;
+    color: #000000;
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 500;
+    margin: 20px auto 12px auto;
+    text-align: center;
+}
+
+.month {
+    /* Style for "June" */
+    width: 34px;
+    height: 12px;
+    color: #9e9e9e;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+
+.year {
+    /* Style for "2016" */
+    width: 35px;
+    height: 14px;
+    color: #9e9e9e;
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.news {
+    width: 308px;
+    min-width: 308px;
+    min-height: 139px;
+    margin-left: 65px;
+    float: left;
+}
+
+.news h3 {
+    /* Style for "Fugiat Quo" */
+    min-width: 140px;
+    color: #f44336;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+    margin-top: 12px;
+}
+
+.news-text {
+    /* Style for "Quis autem" */
+    width: 308px;
+    min-height: 35px;
+    color: #9e9e9e;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.news-events-right {
+    width: 50%;
+    background-color: #ffffff;
+    min-height: 300px;
+    float: left;
+    position: relative;
+}
+
+.news-events-right h2 {
+    /* Style for "Latest New" */
+    width: 570px;
+    color: #000000;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
+    clear: both;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.featured-events-block-left-arrow {
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    right: 420px;
+    top: 10px;
+    background: url(img/png/List_of_icons.png) 0px -368px no-repeat;
+}
+
+.featured-events-block-left-arrow:hover {
+    background: url(img/png/List_of_icons.png) -42px -368px no-repeat;
+}
+
+.featured-events-block-right-arrow {
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    right: 405px;
+    top: 10px;
+    background: url(img/png/List_of_icons.png) -20px -368px no-repeat;
+}
+
+.featured-events-block-right-arrow:hover {
+    background: url(img/png/List_of_icons.png) -62px -368px no-repeat;
+}
+
+.featured-events-block-left-arrow a {
+    display: block;
+    width: 18px;
+    height: 16px;
+}
+
+.featured-events-block-right-arrow a {
+    display: block;
+    width: 18px;
+    height: 16px;
+}
+
+.carousel {
+    width: 580px;
+    height: 120px;
+    float: left;
+    margin-top: 32px;
+    margin-bottom: 45px;
+}
+
+.carousel a {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.featured-event-opened {
+    /* Style for "−   Assume" */
+    width: 570px;
+    float: left;
+    color: #000000;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background-color: #f7f7f7;
+}
+
+.featured-event-opened a {
+    float: left;
+    clear: both;
+    background: #ffffff;
+    width: 100%;
+}
+
+.featured-event-closed {
+    float: left;
+    width: 570px;
+    height: 40px;
+    color: #000000;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.featured-event-closed:hover {
+    border-color: #999999;
+}
+
+.featured-event-opened-text {
+    /* Style for "Lorem Ipsu" */
+    color: #505050;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    float: left;
+    margin: 39px 20px 43px 13px;
+}
+
+.our-team {
+    width: 1920px;
+    height: 785px;
+    background-color: #f7f7f7;
+}
+
+.our-team h1 {
+    display: block;
+    width: 175px;
+    margin: 0px auto;
+    padding-top: 98px;
+    padding-bottom: 61px;
+    /* Style for "News & Eve" */
+    color: #f44336;
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.gallery-item-employee {
+    position: relative;
+    width: 270px;
+    height: 520px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 29px;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+.gallery-item-employee:nth-child(2) {
+    margin-left: 374px;
+}
+
+.gallery-picture-employee {
+    width: 270px;
+    height: 405px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.gallery-employee-name {
+    /* Style for "Mary Jane" */
+    width: 100%;
+    height: 24px;
+    color: #f44336;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
+    float: left;
+    text-align: left;
+}
+
+.gallery-employee-position {
+    /* Style for "Vestibulum" */
+    width: 100%;
+    height: 12px;
+    color: #838383;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 17px;
+}
+
+.employee-social-button {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 17px;
+}
+
+.employee-social-button a {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.employee-social-button .facebook {
+    background: url(img/png/List_of_icons.png) -96px 0px no-repeat;
+}
+
+.employee-social-button .twitter {
+    background: url(img/png/List_of_icons.png) -96px -33px no-repeat;
+}
+
+.employee-social-button .rss {
+    background: url(img/png/List_of_icons.png) -96px -66px no-repeat;
+}
+
+.employee-social-button .vk {
+    background: url(img/png/List_of_icons.png) -96px -99px no-repeat;
+}
+
+.employee-social-button .facebook:hover {
+    background: url(img/png/List_of_icons.png) -162px 0px no-repeat;
+}
+
+.employee-social-button .twitter:hover {
+    background: url(img/png/List_of_icons.png) -162px -33px no-repeat;
+}
+
+.employee-social-button .rss:hover {
+    background: url(img/png/List_of_icons.png) -162px -66px no-repeat;
+}
+
+.employee-social-button .vk:hover {
+    background: url(img/png/List_of_icons.png) -162px -99px no-repeat;
+}
+
+.subscribe {
+    width: 1920px;
+    height: 313px;
+    background: url(img/subscribe.jpg) no-repeat;
+    margin: 0 auto;
+}
+
+.subscribe h1 {
+    display: block;
+    width: 430px;
+    margin: 0px auto;
+    padding-top: 86px;
+    padding-bottom: 53px;
+    /* Style for "Subscribe" */
+    height: 39px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.s-email {
+    width: 630px;
+    height: 55px;
+    margin: 0 auto;
+}
+
+.subscribe-email {
+    /* Style for "Прямоуголь" */
+    width: 467px;
+    height: 55px;
+    background-color: #ffffff;
+    /* Style for "Email" */
+    color: #8e8e8e;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    margin-right: 12px;
+    padding-left: 16px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 0px;
+    float: left;
+}
+
+.subscribe-email-button {
+    /* Style for "Прямоуголь" */
+    width: 119px;
+    height: 53px;
+    background-color: #f44336;
+    /* Style for "Subscribe" */
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    border: 0px;
+}
+
+.subscribe-email-button:hover {
+    background-color: forestgreen;
+}
+
+.contact-us {
+    width: 1920px;
+    height: 1111px;
+}
+
+.contact-us h1 {
+    display: block;
+    width: 200px;
+    margin: 0px auto;
+    padding-top: 97px;
+    padding-bottom: 89px;
+    /* Style for "contact us" */
+    height: 27px;
+    color: #f44336;
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.contact-us-left {
+    width: 50%;
+    height: 354px;
+    float: left;
+}
+
+.contact-us-left h3 {
+    /* Style for "Get in tou" */
+    width: 210px;
+    height: 20px;
+    color: #f44336;
+    font-family: "Roboto Condensed";
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 23px;
+    margin-bottom: 18px;
+}
+
+.contact-us-right {
+    width: 50%;
+    height: 354px;
+    float: left;
+}
+
+.contact-us-block {
+    width: 972px;
+    height: 354px;
+    margin: 0 auto;
+}
+
+.contact-us-text {
+    color: #9e9e9e;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.red-color {
+    color: #f44336;
+}
+
+.name-field {
+    width: 470px;
+    height: 42px;
+    margin-left: 58px;
+    padding-left: 16px;
+    margin-bottom: 21px;
+    color: #838383;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.email-field {
+    width: 470px;
+    height: 42px;
+    margin-left: 58px;
+    padding-left: 16px;
+    margin-bottom: 21px;
+    color: #838383;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.textarea-field {
+    width: 470px;
+    height: 168px;
+    margin-left: 58px;
+    padding-left: 13px;
+    padding-top: 13px;
+    margin-bottom: 21px;
+    color: #838383;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form-group {}
+
+.contact-us-button {
+    /* Style for "Rectangle" */
+    width: 140px;
+    height: 40px;
+    background-color: #f44336;
+    margin-left: 58px;
+    /* Style for "SUBMIT" */
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.contact-us-button:hover {
+    background-color: forestgreen;
+}
+
+.map {
+    width: 1169px;
+    height: 298px;
+    margin: 0 auto;
+    background: url(img/Map.jpg) no-repeat;
+}
+
+h1.map-h1 {
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.footer {
+    width: 1920px;
+    height: 71px;
+    background-color: #000000;
+    float: left;
+}
+
+.copyright {
+    display: block;
+    margin: 29px auto;
+    /* Style for "© 2017 Ист" */
+    width: 310px;
+    height: 14px;
+    color: #ffffff;
+    font-family: "Arial Narrow";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-button:hover {
+    background: url(img/png/List_of_icons.png) -34px 9px no-repeat;
+    border-color: aqua;
+}
+
+.Button-to-top {
+    /* Style for "arrow copy" */
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 55px;
+    margin-top: -90px;
+}
+
+.Button-to-top a {
+    /* Style for "arrow copy" */
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(img/png/List_of_icons.png) -216px 0px no-repeat;
+}
+
+.Button-to-top a:hover {
+    background: url(img/png/List_of_icons.png) -264px 0px no-repeat;
+}
+
+.our-team-container {
+    margin: 0 auto;
+}
