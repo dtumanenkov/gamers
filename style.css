@@ -126,6 +126,7 @@ a {
     background-color: transparent;
     margin-top: 20px;
     position: relative;
+    color: transparent;
 }
 
 .search {
@@ -192,6 +193,7 @@ a {
 .header-middle-menu a:nth-child(1) {
     padding-left: 0px;
 }
+
 
 .header-middle-menu a:hover:before {
     content: "";
@@ -1283,4 +1285,8 @@ h1.map-h1 {
 
 .Button-to-top a:hover {
     background: url(img/png/List_of_icons.png) -264px 0px no-repeat;
+}
+
+.our-team-container {
+    margin: 0 auto;
 }
